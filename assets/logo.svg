@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="rsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef3b42"/>
+      <stop offset="55%" stop-color="#d7262b"/>
+      <stop offset="100%" stop-color="#9e1217"/>
+    </linearGradient>
+    <linearGradient id="rsRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fbd0d5" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="rsShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#9e1217" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <!-- Tactile Squircle Seal -->
+  <rect x="8" y="8" width="104" height="104" rx="34" fill="url(#rsGrad)" filter="url(#rsShadow)"/>
+  <rect x="10" y="10" width="100" height="100" rx="32" fill="none" stroke="url(#rsRim)" stroke-width="2.5"/>
+  <!-- Inner Soft Blush Halo -->
+  <circle cx="60" cy="60" r="36" fill="none" stroke="#ffd8dc" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="4 5"/>
+  <!-- Continuous Momentum & Context Restore Arc -->
+  <path d="M 86 60 A 26 26 0 1 1 60 34" fill="none" stroke="#fcf5ef" stroke-width="8.5" stroke-linecap="round"/>
+  <!-- Forward Momentum Arrowhead -->
+  <path d="M 55 21 L 70 34 L 55 47" fill="none" stroke="#fcf5ef" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Center Clarity SparkStar (Focus & Cognitive Spark) -->
+  <path d="M 60 44 C 61.2 53.5 66.5 58.8 76 60 C 66.5 61.2 61.2 66.5 60 76 C 58.8 66.5 53.5 61.2 44 60 C 53.5 58.8 58.8 53.5 60 44 Z" fill="#ffd8dc"/>
+  <!-- Top-Right Micro-Action Spark -->
+  <path d="M 88 26 C 88.6 30.2 90.8 32.4 95 33 C 90.8 33.6 88.6 35.8 88 40 C 87.4 35.8 85.2 33.6 81 33 C 85.2 32.4 87.4 30.2 88 26 Z" fill="#ffffff"/>
+</svg>

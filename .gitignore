@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.composio.lock
+scratch_test.py
+.streamlit/secrets.toml
+data/active_session.json
+data/users.json
+data/tasks.json
+data/uploads/
